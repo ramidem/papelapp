@@ -2,10 +2,11 @@
   "name": "papelapp",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./src/app.js",
     "dev": "cross-env DEBUG=papelapp:* npm start",
-    "develop": "nodemon --exec babel-node ./bin/www"
+    "develop": "nodemon --exec babel-node ./src/app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

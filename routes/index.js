@@ -6,5 +6,5 @@ router.get('/', async (req, res, next) => {
   res.render('index', { title: 'Papel.app' });
 });
 
-module.exports = router;
+export default router;
 
